@@ -1,5 +1,7 @@
 # Patient Admission Management
 
+![Patient Dashboard](screenshots/screenshot-app.png)
+
 A patient-admission dashboard for viewing and managing hospital patient records. The React frontend provides the patient interface and connects to a FastAPI API configured through environment variables.
 
 ## Features
@@ -111,7 +113,6 @@ These are the methods and paths the frontend currently calls. They describe the 
 ## Screenshots
 
 - Patient dashboard: _Screenshot placeholder_
-- Add/edit patient form: _Screenshot placeholder_
 
 ## Links
 
