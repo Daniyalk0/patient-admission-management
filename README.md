@@ -86,6 +86,8 @@ FRONTEND_URL=http://localhost:5173
 DATABASE_URL=postgresql+psycopg://<user>:<password>@<host>:5432/<database>?sslmode=require
 ```
 
+The API also allows the deployed Vercel frontend origin and `http://localhost:5173` for CORS. `FRONTEND_URL` may be set to an additional frontend origin.
+
 Use the connection URL supplied by your PostgreSQL provider, such as Neon.
 
 **`frontend/.env`**
@@ -113,5 +115,5 @@ These are the methods and paths the frontend currently calls. They describe the 
 
 ## Links
 
-- **Live demo:** _URL to be added_
-- **GitHub:** _Repository URL to be added_
+- **Live demo:** https://patient-admission-management.vercel.app/
+- **GitHub:** (https://github.com/Daniyalk0/patient-admission-management)
